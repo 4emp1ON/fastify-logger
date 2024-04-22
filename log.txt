@@ -1,0 +1,3141 @@
+WEBIM LOG. 22.04.2024, 15:14:25 GMT+3 Request read chat in MessageStreamImpl- setChatRead()
+WEBIM LOG. 22.04.2024, 15:14:25 GMT+3 Request start chat in MessageStreamImpl - startChat(departmentKey:firstQuestion:customFields:)
+WEBIM LOG. 22.04.2024, 15:14:25 GMT+3 Request history
+WEBIM LOG. 22.04.2024, 15:14:25 GMT+3 Webim request:
+HTTP method - GET
+URL – https://mp-uat.nrb.ru/ios/Webim/x/js/v/all-settings-mobile.js?location=astupin
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Webim response:
+URL – https://mp-uat.nrb.ru/ios/Webim/x/js/v/all-settings-mobile.js?location=astupin
+HTTP code – 200
+Data:
+webimApplyServerSideSettings({
+    "accountBlocked": false,
+    "locationSettings": {
+        "id": "a690e1d9-83ad-4229-9744-149defb21d68",
+        "key": "astupin",
+        "title": {
+            "ru": "Андрей Ступин"
+        },
+        "button": {
+            "slider": {
+                "width": 261,
+                "top": 150,
+                "alwaysVisibleWidth": 30,
+                "position": "left"
+            },
+            "simple": {
+                "width": null
+            },
+            "offlineEnabled": "Y",
+            "channels": [],
+            "showCallButton": "N",
+            "name": "html",
+            "kind": "html",
+            "corner": {
+                "width": null,
+                "position": "right-bottom"
+            },
+            "channel": {
+                "default": {
+                    "style": []
+                },
+                "webim": {
+                    "name": "",
+                    "style": {
+                        "background-color": "rgba(51,204,204,1)",
+                        "border-color": "rgba(255,255,255,1)",
+                        "image-color": "rgba(0,0,0,1)"
+                    }
+                }
+            },
+            "html": {
+                "style": {
+                    "image-color": "rgba(0,0,0,1)",
+                    "border-color": "rgba(255,255,255,1)",
+                    "background-color": "rgba(51,204,204,1)"
+                },
+                "draggable": "N",
+                "position": {
+                    "right": "0%",
+                    "bottom": "0%"
+                }
+            },
+            "phoneNumber": ""
+        },
+        "chat": {
+            "chatStartAfterMessage": "",
+            "logo": null,
+            "messageDateFormat": "DD.MM",
+            "departmentsSort": "id",
+            "proposeToRateBeforeClose": "N",
+            "visitorFields": {
+                "offlineMode": {
+                    "email": {
+                        "validation": {
+                            "type": "email"
+                        },
+                        "presence": "mandatory"
+                    }
+                },
+                "firstQuestion": [],
+                "def": {
+                    "first_custom_field": {
+                        "presence": "none"
+                    },
+                    "second_custom_field": {
+                        "presence": "none"
+                    },
+                    "email": {
+                        "validation": {
+                            "type": "email"
+                        },
+                        "presence": "mandatory"
+                    },
+                    "name": {
+                        "validation": {
+                            "maxLength": 64
+                        },
+                        "presence": "mandatory"
+                    },
+                    "third_custom_field": {
+                        "presence": "none"
+                    },
+                    "phone": {
+                        "validation": {
+                            "mask": "+7 (XXX) XXX-XX-XX"
+                        },
+                        "presence": "mandatory"
+                    }
+                },
+                "contactsRequest": []
+            },
+            "showSelectModeMenu": "N",
+            "hideOfflineDepartments": false,
+            "chatEnterFirstMessage": "",
+            "hideMenu": "N",
+            "hintsEnabled": "N",
+            "visitorFieldLabels": [],
+            "departmentKey": "",
+            "availableDepartmentKeys": [],
+            "chooseDepartment": "N",
+            "defaultLayout": {
+                "size": {
+                    "width": 380,
+                    "height": 460
+                },
+                "position": {
+                    "right": 10,
+                    "bottom": 10
+                }
+            },
+            "lang": "ru",
+            "surveyTimeout": 240
+        },
+        "invitation": {
+            "timeout": 90000,
+            "avatar": null,
+            "dontShow": false,
+            "theme": "static",
+            "position": "bottom-right"
+        },
+        "styles": {
+            "invitation-body": {
+                "font-size": "20",
+                "background": "rgba(252,252,252,1)",
+                "color": "rgba(147,155,186,1)"
+            },
+            "footer": {
+                "background": "rgba(252,252,252,1)"
+            },
+            "messageAgent": {
+                "background": "rgba(227,242,253,1)"
+            },
+            "button": {
+                "background": "rgba(57,63,107,1)",
+                "gradient": "rgba(57,63,107,1)"
+            },
+            "invitation-header": {
+                "background": "rgba(252,252,252,1)"
+            },
+            "messageVisitor": {
+                "background": "rgba(237,237,237,1)"
+            },
+            "body": {
+                "background": "rgba(252,252,252,1)"
+            },
+            "header": {
+                "background": "rgba(57,63,107,1)",
+                "gradient": "rgba(57,63,107,1)"
+            }
+        },
+        "misc": {
+            "fixFlashWmode": false
+        },
+        "resources": {
+            "chat-operator-default_title": null,
+            "leavemessage-descr": null,
+            "first_question-descr": null,
+            "chat-window-personal_data_agreement": null
+        },
+        "created_ts": 1707216849448037,
+        "updated_ts": 1707216849448074,
+        "deleted_ts": null
+    },
+    "accountConfig": {
+        "multilang": false,
+        "logo": "",
+        "chatting_timer": false,
+        "google_analytics": true,
+        "yandex_metrika_counter_id": null,
+        "teleport": false,
+        "client_php_url": null,
+        "hide_referrer": false,
+        "force_visitor_https": false,
+        "visitor_tracking": true,
+        "force_visitor_disable": false,
+        "visitor_enabling_probability": 100,
+        "default_lang": "ru",
+        "rate_operator": true,
+        "surveys": false,
+        "allowed_upload_file_types": "png, jpg, jpeg, doc, docx, rtf, gif, txt, pdf, webp, oga, ogg, ogv, mp3, wav, mp4, m4a, mov, aac, odt, amr, jpe, heic, heif, avif, 3gp, xlsx, mkv, opus",
+        "show_processing_personal_data_checkbox": true,
+        "visitor_websockets": false,
+        "visitor_upload_file": true,
+        "operator_check_status_online": 300,
+        "visitor_hints_api_endpoint": null,
+        "file_url_expiring_timeout": 86400,
+        "check_visitor_auth": false,
+        "operator_status_timer": false,
+        "visitor_message_editing": true,
+        "web_and_mobile_quoting": true,
+        "offline_chat_processing": true,
+        "open_chat_in_new_tab_for_mobile": true,
+        "default_phone_number": null,
+        "max_visitor_upload_file_size": 10
+    },
+    "ainviteRules": [
+        {
+            "id": 1,
+            "text": "Если у Вас возникли вопросы, пожалуйста, обращайтесь",
+            "conditions": {
+                "time_on_site": 5
+            }
+        },
+        {
+            "id": 2,
+            "text": "Оставьте, пожалуйста, Ваше сообщение. Мы обязательно свяжемся с Вами в рабочее время.",
+            "conditions": {
+                "time_on_site": 5,
+                "online_operators": "offline"
+            }
+        }
+    ],
+    "tariffOptions": {
+        "hide_poweredby_link": false,
+        "invitation": true,
+        "offline_message": true
+    },
+    "channels": []
+});
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Webim request:
+HTTP method - GET
+URL – https://mp-uat.nrb.ru/ios/Webim/l/v/m/init?platform=ios&visitor-ext=%7B%22fields%22%3A%7B%22id%22%3A%223760astupin%22%2C%22display_name%22%3A%22Legkova-Roma%20Svetlana%20Svetlana%22%2C%22phone%22%3A%2279996135575%22%2C%22email%22%3A%22Albert.Donskov%40mncap.ru%22%7D%2C%22expires%22%3A1713806065%2C%22hash%22%3A%22ded79c7995a6d72fd06f37faab9938228bc7978680f3fcdc4b98fb4d84cf44b8%22%7D&device-id=6AC3FB7A-9276-4445-8F7B-1A3E35958944&location=astupin&title=iOS%20Client&event=init&respond-immediately=1&since=0&app-version=59.0.0%20
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Webim response:
+URL – https://mp-uat.nrb.ru/ios/Webim/l/v/m/init?platform=ios&visitor-ext=%7B%22fields%22%3A%7B%22id%22%3A%223760astupin%22%2C%22display_name%22%3A%22Legkova-Roma%20Svetlana%20Svetlana%22%2C%22phone%22%3A%2279996135575%22%2C%22email%22%3A%22Albert.Donskov%40mncap.ru%22%7D%2C%22expires%22%3A1713806065%2C%22hash%22%3A%22ded79c7995a6d72fd06f37faab9938228bc7978680f3fcdc4b98fb4d84cf44b8%22%7D&device-id=6AC3FB7A-9276-4445-8F7B-1A3E35958944&location=astupin&title=iOS%20Client&event=init&respond-immediately=1&since=0&app-version=59.0.0%20
+HTTP code – 200
+JSON:
+{
+  "revision" : 155,
+  "fullUpdate" : {
+    "state" : "chat",
+    "authToken" : "8741683ded0a6bbe2dcaaababac314ef",
+    "visitor" : {
+      "creationTs" : 1707895472.3131189,
+      "id" : "106f3edc4879a782a31cc787d8808fa6",
+      "icon" : {
+        "color" : "#ea5f5f",
+        "shape" : "check"
+      },
+      "hasProvidedFields" : true,
+      "stored" : true,
+      "modificationTs" : 1709055524.545429
+    },
+    "onlineStatus" : "offline",
+    "pageId" : "dc5be3f951ba4748b2789c2b282ff928",
+    "hasPreviousChats" : true,
+    "visitSessionId" : "62f335ce0eaf40a18839da838e5b6918",
+    "pollingPeriod" : 2,
+    "onlineOperators" : false,
+    "currentTime" : 1713788066.3993127,
+    "visitorFull" : {
+      "id" : "106f3edc4879a782a31cc787d8808fa6",
+      "channelId" : null,
+      "channelType" : null,
+      "modificationTs" : 1709055524.545429,
+      "fields" : {
+
+      },
+      "stored" : true,
+      "hasProvidedFields" : true,
+      "channelUserId" : null,
+      "icon" : {
+        "color" : "#ea5f5f",
+        "shape" : "check"
+      },
+      "creationTs" : 1707895472.3131189,
+      "channelUserName" : null,
+      "unreadMsgSinceTs" : null
+    },
+    "survey" : null,
+    "normalPollingPeriod" : 10,
+    "cobrowsingSession" : null,
+    "chat" : {
+      "id" : 41,
+      "state" : "queue",
+      "visitorMessageDraft" : null,
+      "readByVisitor" : true,
+      "clientSideId" : "7c054eaf05e24bb5be1ee918c60df85a",
+      "operatorTyping" : false,
+      "subject" : "",
+      "visitorTyping" : false,
+      "unreadByVisitorSinceTs" : null,
+      "offline" : false,
+      "unreadByVisitorMsgCnt" : 0,
+      "categoryIds" : [
+
+      ],
+      "messages" : [
+        {
+          "id" : "3920db7f28a146d59c9b48441b482c7a",
+          "authorId" : null,
+          "clientSideId" : "b3b697faa29442e9ad7397ee3e7a576d",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Ваше сообщение принято, мы сможем ответить, когда операторы будут онлайн",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1712739017.6452811,
+          "canBeReplied" : false,
+          "kind" : "info",
+          "ts" : 1712739017.6452811,
+          "name" : "",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "bfe4b791ee3e439a8419dcb0e8841dce",
+          "authorId" : null,
+          "clientSideId" : "0cb49b1f91f1ffe63f6966cabfcb50db",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Тест 10.04",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1712739488.6148911,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1712739488.6148911,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "fd2b06c868c045828984af26a65536a7",
+          "authorId" : null,
+          "clientSideId" : "f5529ff490d44177988d9430efe77f3c",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "К сожалению, оператор сейчас не может ответить. Напишите, пожалуйста, свой адрес электронной почты, мобильный телефон или другой способ связи. Наш менеджер обязательно ответит на Ваш вопрос.",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1712820203.3484569,
+          "canBeReplied" : false,
+          "kind" : "operator_busy",
+          "ts" : 1712820203.3484569,
+          "name" : "",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "ad2d21dd502f4d0ebe34855c3eb049a1",
+          "authorId" : null,
+          "clientSideId" : "201ccc9196b140b3b9d9a83e61933ab9",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "data" : {
+            "subKind" : "operator-joined",
+            "redirected" : false,
+            "resource" : {
+              "key" : "chat.message.operator_joined_chat",
+              "params" : {
+                "operator_name" : "Ступин Андрей Олегович"
+              }
+            }
+          },
+          "text" : "Оператор Ступин Андрей Олегович включился в разговор",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1712909347.3057408,
+          "canBeReplied" : false,
+          "kind" : "info",
+          "ts" : 1712909347.3057408,
+          "name" : "",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "6a37a6df171e49a992ef253a4cc22283",
+          "authorId" : 6,
+          "clientSideId" : "22a24d8840260c403c7d9cbd2d06fea2",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Привет!\nтест 12.04.2024",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1712909354.9654002,
+          "canBeReplied" : true,
+          "kind" : "operator",
+          "ts" : 1712909354.9654002,
+          "name" : "Ступин Андрей Олегович",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "783da68d179a4ba487dac8ed4dd48bd4",
+          "authorId" : null,
+          "clientSideId" : "443584d1-9eae-4f3a-a954-3d7c32526ad4",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Привет",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1712931157.3826435,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1712931157.3826435,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "bfb13896143441af92f8c20b4181ff5e",
+          "authorId" : null,
+          "clientSideId" : "7b97fe6822c5b8d52baa0a2833c19cc9",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Qwe",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713189613.7354836,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713189613.7354836,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "fdaa30a4ee714e47afcd4edd01c67e48",
+          "authorId" : null,
+          "clientSideId" : "41b5b5300e72106155c9ddff2ea8635a",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Fhj",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713250012.9026382,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713250012.9026382,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "846e53112bfe45e6b2ada35a0ea28899",
+          "authorId" : null,
+          "clientSideId" : "c27df70ecaff715b8ca74c2d8b18becf",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Клиент появился в системе и доступен для общения через чат мобильного приложения Банка",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713252244.0497692,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713252244.0497692,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "64e74ba0f76e49f09768a93d12224bd9",
+          "authorId" : null,
+          "clientSideId" : "82c8306bf0835bff12e48b5eaf254b51",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Клиент появился в системе и доступен для общения через чат мобильного приложения Банка",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713252437.1893373,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713252437.1893373,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "f1917ff1353e4a47b0bbd68b91ab7146",
+          "authorId" : null,
+          "clientSideId" : "2b37a947a8c78dfd6a65d65a4407ad7e",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "1",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713258319.1870794,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713258319.1870794,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "b7f7fe5543ad4eba986f8c8348f81838",
+          "authorId" : null,
+          "clientSideId" : "6e3e7dacd554ab5bea9b3ca03e04b90b",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "2",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713258404.3500659,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713258404.3500659,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "ff264c0f3a904750b5764d0d4d61e843",
+          "authorId" : null,
+          "clientSideId" : "a67e4e2968d4bc93e44665b07e3d3cc4",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "3",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713260108.071177,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713260108.071177,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "3a5ef5a0c7d54f538df8a070240264e3",
+          "authorId" : null,
+          "clientSideId" : "531c62f22e4b9b2d464ed9422cfd882c",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "4",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713267629.7358558,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713267629.7358558,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "8a44d7be95f64c829aad15740128cd99",
+          "authorId" : null,
+          "clientSideId" : "f47e3db3a8337676c51a73c4d24228cf",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "5",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713267950.928077,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713267950.928077,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "939cbdb3aa71454ab3244be3d057ba6b",
+          "authorId" : null,
+          "clientSideId" : "50d733b220f3eaf7d1238187bf3240c7",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "6",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713268118.4594455,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713268118.4594455,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "6868274135c9478b9921dd6443c9c546",
+          "authorId" : null,
+          "clientSideId" : "3f46bf5ecdf383adbb3c5b570371a0cd",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "7",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713268629.2687769,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713268629.2687769,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "caef501b54b946aba0e345efa9a3559f",
+          "authorId" : null,
+          "clientSideId" : "ed81ee99-d13d-4b8e-8c99-7996f6ecb3e2",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "8",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713269473.141077,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713269473.141077,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "fa67234b41cd48d6a427a76bcfdea717",
+          "authorId" : null,
+          "clientSideId" : "0076985f044f0b4a3814df6d71171010",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "9",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713269584.4805777,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713269584.4805777,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "bb6f79c3e3f04954b6f8abb9d02a5121",
+          "authorId" : null,
+          "clientSideId" : "36bfd3aa3de15fcde3f75f41b6a5c2e4",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "10",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713274199.4712648,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713274199.4712648,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "ebe73784ad5d447a99a27aa9eb5aea15",
+          "authorId" : null,
+          "clientSideId" : "49a3b919c4e069aabfc283bb4c66ae39",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "10",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713274200.9381237,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713274200.9381237,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "8bd17b8cf5e94a77aa739186d706a88c",
+          "authorId" : null,
+          "clientSideId" : "d0774711b26e2182c7399942bbeafd96",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "10",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713274201.6262834,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713274201.6262834,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "43b2301a3e7f4a4583365d6cf42439ad",
+          "authorId" : null,
+          "clientSideId" : "c96b3762d7cd4f82580ffc73125f03f5",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "10",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713274202.3095908,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713274202.3095908,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "ad19e64db6a445889acccc78e7961b06",
+          "authorId" : null,
+          "clientSideId" : "2abf37b3b7941e618389a4a17c6a9714",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Сайт НРБ ](https:\/\/nrb.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713336831.7874351,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713336831.7874351,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "84e20f7c5fc24ebab2026da2d5e348da",
+          "authorId" : null,
+          "clientSideId" : "125af4941b5bfdfe2a4ff05b1da76739",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Сайт НРБ ](https:\/\/nrb.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713340462.1128201,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713340462.1128201,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "4caf47de3fa645a099ae9a6ddc8fd8d4",
+          "authorId" : null,
+          "clientSideId" : "19694f35b233a5178469b136a4202435",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "11",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713340874.5391865,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713340874.5391865,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "1441c7403f524f6daf351ff71bc2e93b",
+          "authorId" : null,
+          "clientSideId" : "8ed031ad2b01128910eef9d036bbf706",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "12",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713340888.9345317,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713340888.9345317,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "f67f8a2221374de080f5ffab9e849466",
+          "authorId" : null,
+          "clientSideId" : "3f7149b699b2a5b1d37cb0f04683e7df",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Сайт НРБ ](https:\/\/nrb.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713342289.2160597,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713342289.2160597,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "6a2dee333e2c4ca3945ea8e0f7d14625",
+          "authorId" : null,
+          "clientSideId" : "c7c16fa371bb445c7eac87201d7e0c2e",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Сайт НРБ ](https:\/\/nrb.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713342551.6815135,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713342551.6815135,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "5d0ee17e243b48be92ced5bb97ae5f07",
+          "authorId" : null,
+          "clientSideId" : "2c153cb60976bec25a3f24a529ee98ca",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Сайт НРБ ](https:\/\/nrb.ru) и немного текста",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713343530.8558404,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713343530.8558404,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "e324d0618b5742f388f69d35ba4e7a9b",
+          "authorId" : null,
+          "clientSideId" : "9afcce09561046e28340f5df4497f27f",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "data" : {
+            "subKind" : "operator-joined",
+            "redirected" : false,
+            "resource" : {
+              "key" : "chat.message.operator_joined_chat",
+              "params" : {
+                "operator_name" : "Ступин Андрей Олегович"
+              }
+            }
+          },
+          "text" : "Оператор Ступин Андрей Олегович включился в разговор",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713356329.2382619,
+          "canBeReplied" : false,
+          "kind" : "info",
+          "ts" : 1713356329.2382619,
+          "name" : "",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "05aa869f821844c2ba57a8fea5f0db3a",
+          "authorId" : 6,
+          "clientSideId" : "20522836dfa6ba051fe4f9c069b93f53",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Привет!",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713356334.2447639,
+          "canBeReplied" : true,
+          "kind" : "operator",
+          "ts" : 1713356334.2447639,
+          "name" : "Ступин Андрей Олегович",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "e08ff69e559f408e8492ba4f8a9ec824",
+          "authorId" : 6,
+          "clientSideId" : "ff4e7b1217771b030bdfe7c785064d33",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "17.042024 тест",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713356338.4780674,
+          "canBeReplied" : true,
+          "kind" : "operator",
+          "ts" : 1713356338.4780674,
+          "name" : "Ступин Андрей Олегович",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "e9097dd318b14e418170fd0fee64fa7a",
+          "authorId" : null,
+          "clientSideId" : "f3e6e8493d01256e46f48fdd033d2f23",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Текст [Сайт НРБ ](https:\/\/nrb.ru) текст [Сайт НРБ ](https:\/\/nrb.ru) текст",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713356889.5502365,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713356889.5502365,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "c1a32fb2b3ec43b39d91751877582b91",
+          "authorId" : null,
+          "clientSideId" : "371ad7c6a74be0ee2de87b444352c9a8",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Текст [Сайт НРБ ](https:\/\/nrb.ru) текст1 [Сайт НРБ ](https:\/\/nrb.ru) текст2 [Сайт НРБ ](https:\/\/nrb.ru) текст3",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713356939.7239568,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713356939.7239568,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "421cd6f864144bdb93fe79c68f43ed4b",
+          "authorId" : null,
+          "clientSideId" : "a1b31279106df0a27bfbbb3e5ac72d00",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "https:\/\/vk.ru",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713425525.3407795,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713425525.3407795,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "8480bdac8fe240f69c8dd31bc32cc3e7",
+          "authorId" : null,
+          "clientSideId" : "de1c3d56ed03ecf903fa3dcdf21d37ce",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[vk](https:\/\/vk.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713425618.2779589,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713425618.2779589,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "2fe6a5c69af24179aa7982b085f974a4",
+          "authorId" : null,
+          "clientSideId" : "b9ac56c005dced1f71e550c2cff33d80",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[чуть больше](https:\/\/x.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713425744.3328431,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713425744.3328431,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "60b1222b6d24400da6a030ba5a663038",
+          "authorId" : null,
+          "clientSideId" : "f14407487c9d665b5c5046c87cd3830d",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "(Чуть)[https:\/\/v.ru]",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713425790.3457382,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713425790.3457382,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "9a8d1ec6588447a0b6f5b073fa4a461f",
+          "authorId" : null,
+          "clientSideId" : "37bb1544f3946b995efac2daaccddfc9",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Чуть](https:\/\/v.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713425844.9585042,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713425844.9585042,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "64daea0bbdba49cf9017501f563fcb35",
+          "authorId" : null,
+          "clientSideId" : "2fa5b486a1686ffc1fec91c7bacffa57",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Чуть 1](https:\/\/v.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713425890.9657273,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713425890.9657273,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "bcd17fb98f0943ca808d147414119105",
+          "authorId" : null,
+          "clientSideId" : "98dd37dfe569d8dc86983895f96b0aed",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Чуть 11](https:\/\/v.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713425907.1659791,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713425907.1659791,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "bb66ca6b62ac4885a58cd440a1403227",
+          "authorId" : null,
+          "clientSideId" : "1ffaade4aa0766931ce692660b417981",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Чуть 1 1](https:\/\/v.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713425918.7884753,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713425918.7884753,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "fd2041a341b94fb79fad5da0f940f1c5",
+          "authorId" : null,
+          "clientSideId" : "9793cbe04b919640a6745c80eb5943c5",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Чуть 111](https:\/\/v.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713426076.7624516,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713426076.7624516,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "5d637c152ad74b99a05150e7c6b4f7f0",
+          "authorId" : null,
+          "clientSideId" : "3dcf7ec50b164e4196f360b388af970c",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Чуть 11](https:\/\/sfdghgfghfv.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713426789.2848032,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713426789.2848032,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "f90f62c641c1488db7e77e6723052b82",
+          "authorId" : null,
+          "clientSideId" : "acc780b49277e0a423c95e2703389c88",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Чуть](https:\/\/sfdghgfghfv.ru)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713426812.1098049,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713426812.1098049,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "ab8f5bac0a46464a9030cf78c5a87d12",
+          "authorId" : null,
+          "clientSideId" : "cb45fe932db1135601d7665ebb2e8039",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Чутьhttps:\/\/sfdghgfghfv.ru",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713426829.1146863,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713426829.1146863,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "d30e8615ae16433e97c1a1d27bd03e88",
+          "authorId" : null,
+          "clientSideId" : "909a96f2-74c7-4a60-a0e6-3c5552e94336",
+          "edited" : false,
+          "read" : true,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Test",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713515439.7158446,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713515439.7158446,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "29ffd132e8e04749bae08f3e0f25fe21",
+          "authorId" : null,
+          "clientSideId" : "cd4d113fda534e4aa05d37b39266f581",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "data" : {
+            "subKind" : "operator-joined",
+            "redirected" : false,
+            "resource" : {
+              "key" : "chat.message.operator_joined_chat",
+              "params" : {
+                "operator_name" : "Ступин Андрей Олегович"
+              }
+            }
+          },
+          "text" : "Оператор Ступин Андрей Олегович включился в разговор",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713524977.4258161,
+          "canBeReplied" : false,
+          "kind" : "info",
+          "ts" : 1713524977.4258161,
+          "name" : "",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "329c54245ebb43a681df14ecf0ecd268",
+          "authorId" : 6,
+          "clientSideId" : "71cfc4cbc26b7d0e2bbd7f30182065e3",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Привет!",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713524980.9671535,
+          "canBeReplied" : true,
+          "kind" : "operator",
+          "ts" : 1713524980.9671535,
+          "name" : "Ступин Андрей Олегович",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "6f15e25ad4844be69e8994d8cbb4b121",
+          "authorId" : 6,
+          "clientSideId" : "9f3645592e043b5277de998d9723f19d",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "тест 19.04.2024",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713524985.7819412,
+          "canBeReplied" : true,
+          "kind" : "operator",
+          "ts" : 1713524985.7819412,
+          "name" : "Ступин Андрей Олегович",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "b38500264a0c40f5b2b7d6bd37832282",
+          "authorId" : 6,
+          "clientSideId" : "e23df405a0e6d9abb10767e7f9b033d0",
+          "edited" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "[Ссылка на сайт](https:\/\/www.nrb.ru\/)",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713525017.6866109,
+          "canBeReplied" : true,
+          "kind" : "operator",
+          "ts" : 1713525017.6866109,
+          "name" : "Ступин Андрей Олегович",
+          "canBeEdited" : false
+        },
+        {
+          "id" : "cd93778b28cc427f874dc72c9f6f2fa0",
+          "authorId" : null,
+          "clientSideId" : "900427594d30c63dedaf4b0d321ecb3b",
+          "edited" : false,
+          "read" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Чаты",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713533280.6521657,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713533280.6521657,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "7d5087d2ba5d4baa948796651c5304ed",
+          "authorId" : null,
+          "clientSideId" : "b2b5e7db397fa3409452f3e70d2ae7fb",
+          "edited" : false,
+          "read" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Проверка иос 19.04.2024\nСерв обнладениеи",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713533307.2433436,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713533307.2433436,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        },
+        {
+          "id" : "61d69a8992e8404d8eff4b3e1fe8a15e",
+          "authorId" : null,
+          "clientSideId" : "5c1deccf-de30-4344-a781-d92edab9ff87",
+          "edited" : false,
+          "read" : false,
+          "avatar" : null,
+          "channelSideId" : null,
+          "text" : "Test",
+          "sessionId" : "62f335ce0eaf40a18839da838e5b6918",
+          "modifiedTs" : 1713779671.4531405,
+          "canBeReplied" : true,
+          "kind" : "visitor",
+          "ts" : 1713779671.4531405,
+          "name" : "Legkova-Roma Svetlana Svetlana",
+          "canBeEdited" : true
+        }
+      ],
+      "operatorIdToRate" : {
+
+      },
+      "needToBeClosed" : false,
+      "creationTs" : 1712739017.533603,
+      "operator" : null,
+      "unreadByOperatorSinceTs" : 1713525786.0687065
+    }
+  }
+}
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Webim request:
+HTTP method - GET
+URL – https://mp-uat.nrb.ru/ios/Webim/l/v/m/delta?page-id=dc5be3f951ba4748b2789c2b282ff928&ts=735480866314&since=155&auth-token=8741683ded0a6bbe2dcaaababac314ef
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Chat is read by visitor
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Operator online status changed from unknown to offline in MessageStreamImpl - onOnlineStatusChanged(to:)
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Operator typing state changed from false to false in MessageStreamImpl - changingChatStateOf(chat:)
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Unread message count changed from -1 to 0 in MessageStreamImpl - set(unreadByVisitorMessageCount:)
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Chat state changed from unknown to queue in MessageStreamImpl - changingChatStateOf(chat:)
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Receiving 55 messages
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Webim request:
+HTTP method - GET
+URL – https://mp-uat.nrb.ru/ios/Webim/l/v/m/history?page-id=dc5be3f951ba4748b2789c2b282ff928&auth-token=8741683ded0a6bbe2dcaaababac314ef
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Webim response:
+URL – https://mp-uat.nrb.ru/ios/Webim/l/v/m/history?page-id=dc5be3f951ba4748b2789c2b282ff928&auth-token=8741683ded0a6bbe2dcaaababac314ef
+HTTP code – 200
+JSON:
+{
+  "result" : "ok",
+  "data" : {
+    "hasMore" : true,
+    "revision" : "1713779672879537",
+    "messages" : [
+      {
+        "id" : "8161518a939d4e40883375e1acd693cb",
+        "authorId" : 6,
+        "ts_m" : 1710943412085737,
+        "clientSideId" : "cccb954fb834e66adbec535e32f794a2",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "13",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "1fa17dff0dc449d887f5744342c17a4e",
+        "authorId" : 6,
+        "ts_m" : 1710943413479554,
+        "clientSideId" : "8d2514c8df3ea2c1f93a5d5650db32ed",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "15",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "6a9dfb32da374898b2b14a18ffb4032a",
+        "authorId" : 6,
+        "ts_m" : 1710943414593646,
+        "clientSideId" : "d38716f4af1f145816e470d4e7d456bc",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "16",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "b0eb30def6f643d7a0c286ed5ce9b6da",
+        "authorId" : 6,
+        "ts_m" : 1710943415445506,
+        "clientSideId" : "ba7a04965bd4fc0c36a6dbae010ddcd8",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "17",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "d31fe272672c479cb9d670a1779a779b",
+        "authorId" : 6,
+        "ts_m" : 1710943416192290,
+        "clientSideId" : "d24b11cb41496724e844c2f6ea580c86",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "18",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "f506eb42ace04adab1e00c4b3bfe5198",
+        "authorId" : 6,
+        "ts_m" : 1710943416909003,
+        "clientSideId" : "c28e5f81698e76823b7b752099844996",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "19",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "c6ff32284bae4ed8b9d3bdf8d50afa3a",
+        "authorId" : 6,
+        "ts_m" : 1710943417521809,
+        "clientSideId" : "48fe35d4fdf6125987076c64710e6017",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "20",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "cee4797f11ce4c2e9facd71e5cbde7f6",
+        "authorId" : 6,
+        "ts_m" : 1710943446201833,
+        "clientSideId" : "311c538eeeb2795d3b6f8bc9d263500f",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "21",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "4512fea24cdf417f90d1ea361549c4f5",
+        "authorId" : 6,
+        "ts_m" : 1710943447027472,
+        "clientSideId" : "93289ef42ffe1add9070ce595da26bc4",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "22",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "d3aa9a020da44c029434a7486549ea0a",
+        "authorId" : 6,
+        "ts_m" : 1710943448159134,
+        "clientSideId" : "fa6c226f3985c33caccdaadead663e70",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "23",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "f96b91ba6ac6460c947b63c5f0418aac",
+        "authorId" : 6,
+        "ts_m" : 1710943448788375,
+        "clientSideId" : "6b45b0d504a989858965c5bb27062e15",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "14",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "5166ec457b844700a1b7ac720742a832",
+        "authorId" : 6,
+        "ts_m" : 1710943449585922,
+        "clientSideId" : "c2d8bed9bdfc2ab0cb59916826f4eea0",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "25",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "1f80c763d656480699c433b672ef9729",
+        "authorId" : 6,
+        "ts_m" : 1710943450514753,
+        "clientSideId" : "324085bf88d5c138c62236f9aed7fbc0",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "16",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "66ef0db71856476885c6c122f2a8c921",
+        "authorId" : null,
+        "ts_m" : 1711010709731081,
+        "clientSideId" : "f7c783f35c1848fc942b3de81c6b5091",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "К сожалению, оператор сейчас не может ответить. Напишите, пожалуйста, свой адрес электронной почты, мобильный телефон или другой способ связи. Наш менеджер обязательно ответит на Ваш вопрос.",
+        "canBeReplied" : false,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator_busy",
+        "name" : ""
+      },
+      {
+        "id" : "3c1ff7b5d0414853ad69b4d1163e82ff",
+        "authorId" : null,
+        "ts_m" : 1711528631519547,
+        "clientSideId" : "4c2c2380-1235-4d0a-90cc-355de471db8f",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Добрый вечер",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "f437320684d242cf8c3d63807f3deebf",
+        "authorId" : null,
+        "ts_m" : 1711704444382371,
+        "clientSideId" : "b4697f87fa0205e9a65d2b6570d2682c",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Здравствуйте",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "3b85fa3427f44b21aa19f41af43578e3",
+        "authorId" : null,
+        "ts_m" : 1711704453609628,
+        "clientSideId" : "4e49d73e-db73-4a98-bc88-45ea9865cffc",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Хеллоу",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "366a329b5a644f3bb787debf345c5d05",
+        "authorId" : null,
+        "ts_m" : 1711704478026552,
+        "clientSideId" : "bd10516c-e252-4279-b67c-33c1ce38b566",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "5c4f79ce46054541ba41fa58ca10571a",
+        "authorId" : null,
+        "ts_m" : 1711706477135219,
+        "clientSideId" : "e2f71a38a28c4c9aabbff409b092f3a6",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+          "subKind" : "operator-joined",
+          "redirected" : false,
+          "resource" : {
+            "key" : "chat.message.operator_joined_chat",
+            "params" : {
+              "operator_name" : "Ступин Андрей Олегович"
+            }
+          }
+        },
+        "text" : "Оператор Ступин Андрей Олегович включился в разговор",
+        "canBeReplied" : false,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "info",
+        "name" : ""
+      },
+      {
+        "id" : "e11a296822964273b4907093a531103a",
+        "authorId" : 6,
+        "ts_m" : 1711706478639552,
+        "clientSideId" : "4db2158c2258e1ce949089f65ed82bd0",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Тест 3",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "2d7735eba75b4048b3f2c9af983f7328",
+        "authorId" : null,
+        "ts_m" : 1711706482875306,
+        "clientSideId" : "8b1ffb85-8abc-47cb-9ecd-9ec40c6707a3",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "89721153a0434d649cad83873077fd96",
+        "authorId" : 6,
+        "ts_m" : 1711706497897558,
+        "clientSideId" : "2d9755cfa4bb8bafd9e9c2a18a8e3fef",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Я печатаю сообщение",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "19631fb447624a52bc45f913335f596e",
+        "authorId" : 6,
+        "ts_m" : 1711706506360128,
+        "clientSideId" : "2d4b74fcfc2d60b77932f9509d1be430",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Ау",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "b53749ad3ee64f7babc075f4cc5c296a",
+        "authorId" : 6,
+        "ts_m" : 1711706513635022,
+        "clientSideId" : "0c67fdd0b4a8144be6df14bc6bcad273",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "ку ку",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "35ec8e51783a45a1b7dca7e63980dbbf",
+        "authorId" : 6,
+        "ts_m" : 1711706540745317,
+        "clientSideId" : "1d095720d90d355fc27de80c13e23811",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "1",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "8f07ada4c9da48ba801e16372db1e890",
+        "authorId" : 6,
+        "ts_m" : 1711706541152950,
+        "clientSideId" : "a37c0ae54a9d55f49b33f0e51664af8f",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "2",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "fc6a30399bca4483bad1ee0dd96f5ca9",
+        "authorId" : 6,
+        "ts_m" : 1711706541634958,
+        "clientSideId" : "afcec44519711d41154f414724f55c51",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "3",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "545a59e584af40da887d88c314a64a88",
+        "authorId" : 6,
+        "ts_m" : 1711706542208440,
+        "clientSideId" : "f723db8d2c22cfff28fae1e716f75624",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "4",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "cfacb905d94a46b2b2b44f1a0923d806",
+        "authorId" : 6,
+        "ts_m" : 1711706543331654,
+        "clientSideId" : "065e907053641e874fff90358a88ed2c",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "5",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "5b91251f984e4bc09115d13d915b3eea",
+        "authorId" : 6,
+        "ts_m" : 1711706544340804,
+        "clientSideId" : "0246fb8e0a1a75050dd0ae0b3006b46f",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "6",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "5debab4a6d3e4de9b19d47152aae8edb",
+        "authorId" : 6,
+        "ts_m" : 1711706545211708,
+        "clientSideId" : "c5805271103d279af264804f968596e9",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "7",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "ea4eaed3009049939a7a27415e5dbcd4",
+        "authorId" : 6,
+        "ts_m" : 1711706545646360,
+        "clientSideId" : "bdaff5b298bbe1675e3f62f69e268eb1",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "8",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "20eedeac90384834b970b2a33f23322d",
+        "authorId" : 6,
+        "ts_m" : 1711706546178020,
+        "clientSideId" : "eb968c5701b946e82ca6038db1bfe939",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "9",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "5d6e4760582846ee8526d9dec10f3864",
+        "authorId" : 6,
+        "ts_m" : 1711706547139842,
+        "clientSideId" : "e7b29af5f6b5b3414a9a80b7222b8b3c",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "10",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "587d7056fc69478e8dda324a4e1dc0b8",
+        "authorId" : 6,
+        "ts_m" : 1711706547917531,
+        "clientSideId" : "eb2b7f0747f6791d1e7aaf65950b1799",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "11",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "667a88a1a8be48a6a07752be42c7457a",
+        "authorId" : 6,
+        "ts_m" : 1711706548493878,
+        "clientSideId" : "6dd395cd1bc841c642a2b069ce33a92e",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "12",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "7370077007e641389c86e3a4877a2e3b",
+        "authorId" : 6,
+        "ts_m" : 1711706549102033,
+        "clientSideId" : "baf54e6c5afb125cf7d5d82fc33ceadc",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "13",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "817ceb4ab9f6416387d22a94a89f1b24",
+        "authorId" : null,
+        "ts_m" : 1712566870945748,
+        "clientSideId" : "56127076-9734-4eed-b1dd-af5af8a76aba",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "ceb0a11b0b9e42ce8b2e63c2d8297362",
+        "authorId" : null,
+        "ts_m" : 1712654837379420,
+        "clientSideId" : "daa0329b76a642768b89e54ad25d22c1",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+          "subKind" : "operator-joined",
+          "redirected" : false,
+          "resource" : {
+            "key" : "chat.message.operator_joined_chat",
+            "params" : {
+              "operator_name" : "Ступин Андрей Олегович"
+            }
+          }
+        },
+        "text" : "Оператор Ступин Андрей Олегович включился в разговор",
+        "canBeReplied" : false,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "info",
+        "name" : ""
+      },
+      {
+        "id" : "2d9438b345e3424d9e951d7701a41dfd",
+        "authorId" : 6,
+        "ts_m" : 1712654845012359,
+        "clientSideId" : "34c5f097d74a07d7f94f9e356adad689",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Тест 09\/04\/2024",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "4ead09b5faf640ba9651947af74ecc03",
+        "authorId" : null,
+        "ts_m" : 1712654858014689,
+        "clientSideId" : "da6f30fb9421a9b78a5215a82454154f",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "7379cb23843344e9a7f03469616c7df6",
+        "authorId" : null,
+        "ts_m" : 1712654861251558,
+        "clientSideId" : "bf216f6f4ceaf76364f1a9951f6bd208",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "6c348c7f2d424b9a87f554f3a9368bc3",
+        "authorId" : null,
+        "ts_m" : 1712654901146824,
+        "clientSideId" : "9f9a7b26eddd49a655ee5b71d61c9877",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет Андрей как дела",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "75cc8d3ded2b489ba6fe34e4d0766a3e",
+        "authorId" : null,
+        "ts_m" : 1712654907040523,
+        "clientSideId" : "b850bd825566fdb518cb90dab46c17c3",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет помогите пожалуйста",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "cab852165c614ec791a399b811bc73ac",
+        "authorId" : null,
+        "ts_m" : 1712736270383875,
+        "clientSideId" : "76cae27b101e48ffb8f41b40ac785e6c",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+          "subKind" : "operator-joined",
+          "redirected" : false,
+          "resource" : {
+            "key" : "chat.message.operator_joined_chat",
+            "params" : {
+              "operator_name" : "Ступин Андрей Олегович"
+            }
+          }
+        },
+        "text" : "Оператор Ступин Андрей Олегович включился в разговор",
+        "canBeReplied" : false,
+        "canBeEdited" : false,
+        "chatId" : "26",
+        "kind" : "info",
+        "name" : ""
+      },
+      {
+        "id" : "3920db7f28a146d59c9b48441b482c7a",
+        "authorId" : null,
+        "ts_m" : 1712739017645281,
+        "clientSideId" : "b3b697faa29442e9ad7397ee3e7a576d",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Ваше сообщение принято, мы сможем ответить, когда операторы будут онлайн",
+        "canBeReplied" : false,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "info",
+        "name" : ""
+      },
+      {
+        "id" : "bfe4b791ee3e439a8419dcb0e8841dce",
+        "authorId" : null,
+        "ts_m" : 1712739488614891,
+        "clientSideId" : "0cb49b1f91f1ffe63f6966cabfcb50db",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Тест 10.04",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "fd2b06c868c045828984af26a65536a7",
+        "authorId" : null,
+        "ts_m" : 1712820203348456,
+        "clientSideId" : "f5529ff490d44177988d9430efe77f3c",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "К сожалению, оператор сейчас не может ответить. Напишите, пожалуйста, свой адрес электронной почты, мобильный телефон или другой способ связи. Наш менеджер обязательно ответит на Ваш вопрос.",
+        "canBeReplied" : false,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "operator_busy",
+        "name" : ""
+      },
+      {
+        "id" : "ad2d21dd502f4d0ebe34855c3eb049a1",
+        "authorId" : null,
+        "ts_m" : 1712909347305740,
+        "clientSideId" : "201ccc9196b140b3b9d9a83e61933ab9",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+          "subKind" : "operator-joined",
+          "redirected" : false,
+          "resource" : {
+            "key" : "chat.message.operator_joined_chat",
+            "params" : {
+              "operator_name" : "Ступин Андрей Олегович"
+            }
+          }
+        },
+        "text" : "Оператор Ступин Андрей Олегович включился в разговор",
+        "canBeReplied" : false,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "info",
+        "name" : ""
+      },
+      {
+        "id" : "6a37a6df171e49a992ef253a4cc22283",
+        "authorId" : 6,
+        "ts_m" : 1712909354965400,
+        "clientSideId" : "22a24d8840260c403c7d9cbd2d06fea2",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет!\nтест 12.04.2024",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "783da68d179a4ba487dac8ed4dd48bd4",
+        "authorId" : null,
+        "ts_m" : 1712931157382643,
+        "clientSideId" : "443584d1-9eae-4f3a-a954-3d7c32526ad4",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "bfb13896143441af92f8c20b4181ff5e",
+        "authorId" : null,
+        "ts_m" : 1713189613735483,
+        "clientSideId" : "7b97fe6822c5b8d52baa0a2833c19cc9",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Qwe",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "fdaa30a4ee714e47afcd4edd01c67e48",
+        "authorId" : null,
+        "ts_m" : 1713250012902638,
+        "clientSideId" : "41b5b5300e72106155c9ddff2ea8635a",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Fhj",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "846e53112bfe45e6b2ada35a0ea28899",
+        "authorId" : null,
+        "ts_m" : 1713252244049769,
+        "clientSideId" : "c27df70ecaff715b8ca74c2d8b18becf",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Клиент появился в системе и доступен для общения через чат мобильного приложения Банка",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "64e74ba0f76e49f09768a93d12224bd9",
+        "authorId" : null,
+        "ts_m" : 1713252437189337,
+        "clientSideId" : "82c8306bf0835bff12e48b5eaf254b51",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Клиент появился в системе и доступен для общения через чат мобильного приложения Банка",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "f1917ff1353e4a47b0bbd68b91ab7146",
+        "authorId" : null,
+        "ts_m" : 1713258319187079,
+        "clientSideId" : "2b37a947a8c78dfd6a65d65a4407ad7e",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "1",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "b7f7fe5543ad4eba986f8c8348f81838",
+        "authorId" : null,
+        "ts_m" : 1713258404350066,
+        "clientSideId" : "6e3e7dacd554ab5bea9b3ca03e04b90b",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "2",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "ff264c0f3a904750b5764d0d4d61e843",
+        "authorId" : null,
+        "ts_m" : 1713260108071177,
+        "clientSideId" : "a67e4e2968d4bc93e44665b07e3d3cc4",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "3",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "3a5ef5a0c7d54f538df8a070240264e3",
+        "authorId" : null,
+        "ts_m" : 1713267629735855,
+        "clientSideId" : "531c62f22e4b9b2d464ed9422cfd882c",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "4",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "8a44d7be95f64c829aad15740128cd99",
+        "authorId" : null,
+        "ts_m" : 1713267950928077,
+        "clientSideId" : "f47e3db3a8337676c51a73c4d24228cf",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "5",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "939cbdb3aa71454ab3244be3d057ba6b",
+        "authorId" : null,
+        "ts_m" : 1713268118459445,
+        "clientSideId" : "50d733b220f3eaf7d1238187bf3240c7",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "6",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "6868274135c9478b9921dd6443c9c546",
+        "authorId" : null,
+        "ts_m" : 1713268629268777,
+        "clientSideId" : "3f46bf5ecdf383adbb3c5b570371a0cd",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "7",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "caef501b54b946aba0e345efa9a3559f",
+        "authorId" : null,
+        "ts_m" : 1713269473141077,
+        "clientSideId" : "ed81ee99-d13d-4b8e-8c99-7996f6ecb3e2",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "8",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "fa67234b41cd48d6a427a76bcfdea717",
+        "authorId" : null,
+        "ts_m" : 1713269584480577,
+        "clientSideId" : "0076985f044f0b4a3814df6d71171010",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "9",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "bb6f79c3e3f04954b6f8abb9d02a5121",
+        "authorId" : null,
+        "ts_m" : 1713274199471264,
+        "clientSideId" : "36bfd3aa3de15fcde3f75f41b6a5c2e4",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "10",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "ebe73784ad5d447a99a27aa9eb5aea15",
+        "authorId" : null,
+        "ts_m" : 1713274200938123,
+        "clientSideId" : "49a3b919c4e069aabfc283bb4c66ae39",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "10",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "8bd17b8cf5e94a77aa739186d706a88c",
+        "authorId" : null,
+        "ts_m" : 1713274201626283,
+        "clientSideId" : "d0774711b26e2182c7399942bbeafd96",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "10",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "43b2301a3e7f4a4583365d6cf42439ad",
+        "authorId" : null,
+        "ts_m" : 1713274202309590,
+        "clientSideId" : "c96b3762d7cd4f82580ffc73125f03f5",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "10",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "ad19e64db6a445889acccc78e7961b06",
+        "authorId" : null,
+        "ts_m" : 1713336831787435,
+        "clientSideId" : "2abf37b3b7941e618389a4a17c6a9714",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Сайт НРБ ](https:\/\/nrb.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "84e20f7c5fc24ebab2026da2d5e348da",
+        "authorId" : null,
+        "ts_m" : 1713340462112820,
+        "clientSideId" : "125af4941b5bfdfe2a4ff05b1da76739",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Сайт НРБ ](https:\/\/nrb.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "4caf47de3fa645a099ae9a6ddc8fd8d4",
+        "authorId" : null,
+        "ts_m" : 1713340874539186,
+        "clientSideId" : "19694f35b233a5178469b136a4202435",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "11",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "1441c7403f524f6daf351ff71bc2e93b",
+        "authorId" : null,
+        "ts_m" : 1713340888934531,
+        "clientSideId" : "8ed031ad2b01128910eef9d036bbf706",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "12",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "f67f8a2221374de080f5ffab9e849466",
+        "authorId" : null,
+        "ts_m" : 1713342289216059,
+        "clientSideId" : "3f7149b699b2a5b1d37cb0f04683e7df",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Сайт НРБ ](https:\/\/nrb.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "6a2dee333e2c4ca3945ea8e0f7d14625",
+        "authorId" : null,
+        "ts_m" : 1713342551681513,
+        "clientSideId" : "c7c16fa371bb445c7eac87201d7e0c2e",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Сайт НРБ ](https:\/\/nrb.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "5d0ee17e243b48be92ced5bb97ae5f07",
+        "authorId" : null,
+        "ts_m" : 1713343530855840,
+        "clientSideId" : "2c153cb60976bec25a3f24a529ee98ca",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Сайт НРБ ](https:\/\/nrb.ru) и немного текста",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "e324d0618b5742f388f69d35ba4e7a9b",
+        "authorId" : null,
+        "ts_m" : 1713356329238262,
+        "clientSideId" : "9afcce09561046e28340f5df4497f27f",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+          "subKind" : "operator-joined",
+          "redirected" : false,
+          "resource" : {
+            "key" : "chat.message.operator_joined_chat",
+            "params" : {
+              "operator_name" : "Ступин Андрей Олегович"
+            }
+          }
+        },
+        "text" : "Оператор Ступин Андрей Олегович включился в разговор",
+        "canBeReplied" : false,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "info",
+        "name" : ""
+      },
+      {
+        "id" : "05aa869f821844c2ba57a8fea5f0db3a",
+        "authorId" : 6,
+        "ts_m" : 1713356334244763,
+        "clientSideId" : "20522836dfa6ba051fe4f9c069b93f53",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет!",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "e08ff69e559f408e8492ba4f8a9ec824",
+        "authorId" : 6,
+        "ts_m" : 1713356338478067,
+        "clientSideId" : "ff4e7b1217771b030bdfe7c785064d33",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "17.042024 тест",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "e9097dd318b14e418170fd0fee64fa7a",
+        "authorId" : null,
+        "ts_m" : 1713356889550236,
+        "clientSideId" : "f3e6e8493d01256e46f48fdd033d2f23",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Текст [Сайт НРБ ](https:\/\/nrb.ru) текст [Сайт НРБ ](https:\/\/nrb.ru) текст",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "c1a32fb2b3ec43b39d91751877582b91",
+        "authorId" : null,
+        "ts_m" : 1713356939723956,
+        "clientSideId" : "371ad7c6a74be0ee2de87b444352c9a8",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Текст [Сайт НРБ ](https:\/\/nrb.ru) текст1 [Сайт НРБ ](https:\/\/nrb.ru) текст2 [Сайт НРБ ](https:\/\/nrb.ru) текст3",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "421cd6f864144bdb93fe79c68f43ed4b",
+        "authorId" : null,
+        "ts_m" : 1713425525340779,
+        "clientSideId" : "a1b31279106df0a27bfbbb3e5ac72d00",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "https:\/\/vk.ru",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "8480bdac8fe240f69c8dd31bc32cc3e7",
+        "authorId" : null,
+        "ts_m" : 1713425618277958,
+        "clientSideId" : "de1c3d56ed03ecf903fa3dcdf21d37ce",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[vk](https:\/\/vk.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "2fe6a5c69af24179aa7982b085f974a4",
+        "authorId" : null,
+        "ts_m" : 1713425744332843,
+        "clientSideId" : "b9ac56c005dced1f71e550c2cff33d80",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[чуть больше](https:\/\/x.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "60b1222b6d24400da6a030ba5a663038",
+        "authorId" : null,
+        "ts_m" : 1713425790345738,
+        "clientSideId" : "f14407487c9d665b5c5046c87cd3830d",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "(Чуть)[https:\/\/v.ru]",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "9a8d1ec6588447a0b6f5b073fa4a461f",
+        "authorId" : null,
+        "ts_m" : 1713425844958504,
+        "clientSideId" : "37bb1544f3946b995efac2daaccddfc9",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Чуть](https:\/\/v.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "64daea0bbdba49cf9017501f563fcb35",
+        "authorId" : null,
+        "ts_m" : 1713425890965727,
+        "clientSideId" : "2fa5b486a1686ffc1fec91c7bacffa57",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Чуть 1](https:\/\/v.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "bcd17fb98f0943ca808d147414119105",
+        "authorId" : null,
+        "ts_m" : 1713425907165979,
+        "clientSideId" : "98dd37dfe569d8dc86983895f96b0aed",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Чуть 11](https:\/\/v.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "bb66ca6b62ac4885a58cd440a1403227",
+        "authorId" : null,
+        "ts_m" : 1713425918788475,
+        "clientSideId" : "1ffaade4aa0766931ce692660b417981",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Чуть 1 1](https:\/\/v.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "fd2041a341b94fb79fad5da0f940f1c5",
+        "authorId" : null,
+        "ts_m" : 1713426076762451,
+        "clientSideId" : "9793cbe04b919640a6745c80eb5943c5",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Чуть 111](https:\/\/v.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "5d637c152ad74b99a05150e7c6b4f7f0",
+        "authorId" : null,
+        "ts_m" : 1713426789284803,
+        "clientSideId" : "3dcf7ec50b164e4196f360b388af970c",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Чуть 11](https:\/\/sfdghgfghfv.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "f90f62c641c1488db7e77e6723052b82",
+        "authorId" : null,
+        "ts_m" : 1713426812109804,
+        "clientSideId" : "acc780b49277e0a423c95e2703389c88",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Чуть](https:\/\/sfdghgfghfv.ru)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "ab8f5bac0a46464a9030cf78c5a87d12",
+        "authorId" : null,
+        "ts_m" : 1713426829114686,
+        "clientSideId" : "cb45fe932db1135601d7665ebb2e8039",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Чутьhttps:\/\/sfdghgfghfv.ru",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "d30e8615ae16433e97c1a1d27bd03e88",
+        "authorId" : null,
+        "ts_m" : 1713515439715844,
+        "clientSideId" : "909a96f2-74c7-4a60-a0e6-3c5552e94336",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Test",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "29ffd132e8e04749bae08f3e0f25fe21",
+        "authorId" : null,
+        "ts_m" : 1713524977425816,
+        "clientSideId" : "cd4d113fda534e4aa05d37b39266f581",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+          "subKind" : "operator-joined",
+          "redirected" : false,
+          "resource" : {
+            "key" : "chat.message.operator_joined_chat",
+            "params" : {
+              "operator_name" : "Ступин Андрей Олегович"
+            }
+          }
+        },
+        "text" : "Оператор Ступин Андрей Олегович включился в разговор",
+        "canBeReplied" : false,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "info",
+        "name" : ""
+      },
+      {
+        "id" : "329c54245ebb43a681df14ecf0ecd268",
+        "authorId" : 6,
+        "ts_m" : 1713524980967153,
+        "clientSideId" : "71cfc4cbc26b7d0e2bbd7f30182065e3",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Привет!",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "6f15e25ad4844be69e8994d8cbb4b121",
+        "authorId" : 6,
+        "ts_m" : 1713524985781941,
+        "clientSideId" : "9f3645592e043b5277de998d9723f19d",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "тест 19.04.2024",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "b38500264a0c40f5b2b7d6bd37832282",
+        "authorId" : 6,
+        "ts_m" : 1713525017686611,
+        "clientSideId" : "e23df405a0e6d9abb10767e7f9b033d0",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "[Ссылка на сайт](https:\/\/www.nrb.ru\/)",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "operator",
+        "name" : "Ступин Андрей Олегович"
+      },
+      {
+        "id" : "cd93778b28cc427f874dc72c9f6f2fa0",
+        "authorId" : null,
+        "ts_m" : 1713533280652165,
+        "clientSideId" : "900427594d30c63dedaf4b0d321ecb3b",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Чаты",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "7d5087d2ba5d4baa948796651c5304ed",
+        "authorId" : null,
+        "ts_m" : 1713533307243343,
+        "clientSideId" : "b2b5e7db397fa3409452f3e70d2ae7fb",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Проверка иос 19.04.2024\nСерв обнладениеи",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      },
+      {
+        "id" : "61d69a8992e8404d8eff4b3e1fe8a15e",
+        "authorId" : null,
+        "ts_m" : 1713779671453140,
+        "clientSideId" : "5c1deccf-de30-4344-a781-d92edab9ff87",
+        "read" : true,
+        "edited" : false,
+        "avatar" : null,
+        "data" : {
+
+        },
+        "text" : "Test",
+        "canBeReplied" : true,
+        "canBeEdited" : false,
+        "chatId" : "41",
+        "kind" : "visitor",
+        "name" : "Legkova-Roma Svetlana Svetlana"
+      }
+    ]
+  }
+}
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Request history success. New 100 messages
+WEBIM LOG. 22.04.2024, 15:14:26 GMT+3 Request has not message ID in ActionRequestLoop.handleClientCompletionHandlerOf(request:dataJSON:)

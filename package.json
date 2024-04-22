@@ -1,0 +1,19 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "docker:down": "docker compose -f ./docker-compose.yml down",
+    "docker:build": "npm run docker:down && docker compose -f ./docker-compose.yml up -d --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "@fastify/static": "^7.0.3"
+  }
+}

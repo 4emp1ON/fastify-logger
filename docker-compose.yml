@@ -1,0 +1,25 @@
+version: '3.5'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: logger-backend
+    restart: always
+    environment:
+      - PORT=${NEST_PORT:-9000}
+    ports:
+      - '9000:9000'
+
+  # Контейнер с nginx
+  nginx:
+    container_name: nginx
+    depends_on:
+      - app
+    image: nginx:latest
+    ports:
+      - '80:80'
+    volumes:
+      - ./nginx-conf:/etc/nginx/conf.d
+    restart: always
